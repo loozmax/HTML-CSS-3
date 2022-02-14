@@ -29,3 +29,8 @@
 В итоге вашей работы должен получить примерно такой сайт:
 
 ![image](https://user-images.githubusercontent.com/43530589/150528773-13b9cb55-60a7-49bd-aaed-b360be6e6a42.png)
+
+### Полезные ссылки:
+   
+1.  [Макет](https://www.figma.com/file/xgE9Efr5njC5VnIvB9HBOz/PCRJS?node-id=200%3A77)
+
