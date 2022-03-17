@@ -44,7 +44,7 @@ main>div:first-child>section:nth-child(2) div {
 main>div:nth-child(2) {
     margin: 35px 60px 0 60px;
     display: grid;
-    grid-template-rows: 2fr .5fr 3fr;
+    grid-template-rows: 1.2fr .3fr 3fr;
 }
 
 main>div:nth-child(2)>section:first-child {
@@ -96,31 +96,32 @@ main>div:nth-child(2)>section:nth-child(2)>div:first-child span:nth-child(2):hov
     cursor: pointer;
 }
 
-main>div:nth-child(2)>section:last-child>div {
+main>div:nth-child(2)>section:last-child>div>div:first-child {
     min-height: 50px;
     border-bottom: 3px solid rgba(240, 240, 240);
     border-top: 3px solid rgba(240, 240, 240);
 }
 
-main>div:nth-child(2)>section:last-child>div:nth-child(even) {
-    margin-left: 130px;
-    background-color: rgba(239, 239, 239);
-}
-
-main>div:nth-child(2)>section:last-child>div {
+main>div:nth-child(2)>section:last-child>div>div:first-child,
+main>div:nth-child(2)>section:last-child>div>div:last-child>div {
     display: flex;
     padding: 10px;
 }
 
-main>div:nth-child(2)>section:last-child>div>div:first-child {
+main>div:nth-child(2)>section:last-child>div>div:first-child>div:first-child,
+main>div:nth-child(2)>section:last-child>div>div:last-child>div>div:first-child {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     background: url('https://sun9-27.userapi.com/c844616/v844616495/15185f/wLwjlF-wHUU.jpg?ava=1');
 }
 
-main>div:nth-child(2)>section:last-child>div>div:last-child {
-    margin-left: 20px;
+main>div:nth-child(2)>section:last-child>div>div:last-child>div {
+    margin-left: 100px;
+}
+
+main>div:nth-child(2)>section:last-child>div>div:last-child>div:nth-child(odd) {
+    background-color: mistyrose;
 }
 
 footer {
